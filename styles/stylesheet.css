@@ -1,0 +1,76 @@
+html {
+    background-color:black;
+}
+
+.poster-box {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* width: 100%;
+    margin: 0 auto; */
+  }
+  
+  .west * {
+    font-family: "Ultra";
+    color: rgb(82, 42, 10);
+    margin:10%;
+    /* padding:10%; */
+  }
+  
+  .west h1 {
+    font-family: "Ewert";
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .west h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .west h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .west hr {
+    margin: 8px 30px;
+    border: 0;
+    border-bottom: 2px solid rgb(82, 42, 10);
+  }
+  
+  .west canvas {
+    width: 300px;
+    height: 220px;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+  }
+  
+  .west p {
+    font-size: 16px;
+  }
+  
+  .west {
+    border-radius: 2px;
+    width: 340px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+    background:whitesmoke; 
+  }
+
+  .image-wrapper { 
+      display:flex;
+      justify-content:center; 
+      align-items:center; 
+      padding:10%; 
+      
+  }
