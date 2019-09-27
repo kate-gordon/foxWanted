@@ -6,19 +6,22 @@
     <title>FleabagFox</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link rel="stylesheet" href="styles/stylesheet.css"/> 
+    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="poster-box">
-    <div class="west">
-        <h1>Wanted</h1>
-        <div class="img-wrapper">
-        <img id="image"/>
-        </div>
-        <h2>A Fox</h2>
+    <div class="wanted">
+        <h1 id="#">Wanted</h1>
         <hr />
-        <p></p>
+        <div class="img-wrapper">
+            <img id="gif"/>
+        </div>
+        <!-- <h2>Have you seen this Fox?</h2> -->
+        <hr />
+        <div class="button-box">
+            <a class="button is-rounded" id="yesButton">Fox</a>
+            <a class="button is-rounded" id="noButton">Fleabag.</a>
+        </div>
     </div>
-</div>
   </body>
   <script src="./scripts/get.js"></script>
   <script src="./scripts/main.js"></script>
